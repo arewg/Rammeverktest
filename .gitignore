@@ -1,11 +1,13 @@
 src/Storage/.idea
 .out
+.idea
 
 # Compiled class file
 *.class
 
 # Log file
 *.log
+.idea
 
 # BlueJ files
 *.ctxt
