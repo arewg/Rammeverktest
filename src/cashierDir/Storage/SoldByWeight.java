@@ -1,4 +1,4 @@
-package Storage;
+package cashierDir.Storage;
 
 public enum SoldByWeight {
 
