@@ -1,4 +1,4 @@
-package Storage.src;
+package Storage;
 
 public enum AssortmentCodes {
 
