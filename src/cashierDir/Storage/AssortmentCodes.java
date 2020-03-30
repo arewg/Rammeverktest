@@ -1,4 +1,4 @@
-package Storage;
+package cashierDir.Storage;
 
 public enum AssortmentCodes {
 
@@ -10,7 +10,5 @@ public enum AssortmentCodes {
     OA = Online Assortment, used for items available only online.
     FA = Flagship Assortment, used for stores with an extended item range, that can hold more items than regular stores.
     */
-
     GA, EA, UA, CA, OA, FA;
-
 }

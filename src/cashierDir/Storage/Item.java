@@ -1,4 +1,4 @@
-package Storage;
+package cashierDir.Storage;
 
 import org.jetbrains.annotations.Contract;
 import org.jetbrains.annotations.NotNull;
