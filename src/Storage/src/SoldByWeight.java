@@ -1,3 +1,5 @@
+package Storage.src;
+
 public enum SoldByWeight {
 
     /*

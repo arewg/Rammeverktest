@@ -1,3 +1,5 @@
+package Storage.src;
+
 public final class ChangeItemStock {
 
     public static void reduceStock(Item item, int reduceBy){
