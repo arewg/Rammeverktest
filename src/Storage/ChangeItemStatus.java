@@ -1,8 +1,8 @@
 package Storage;
 
-public class ChangeItemStatus {
+public final class ChangeItemStatus {
 
-    public change (Item item, string newStatus){
+    public void change (Item item, String newStatus){
             item.setStatus(newStatus);
     }
 

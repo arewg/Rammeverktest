@@ -1,4 +1,4 @@
 package Storage;
 
-public class SupplierInfo {
+public final class SupplierInfo {
 }

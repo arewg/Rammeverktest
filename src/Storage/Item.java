@@ -3,7 +3,7 @@ package Storage;
 import org.jetbrains.annotations.Contract;
 import org.jetbrains.annotations.NotNull;
 
-public class Item {
+public final class Item {
 
     /////////////////////
     // FIELD VARIABLES //
