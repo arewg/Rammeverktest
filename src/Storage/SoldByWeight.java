@@ -1,6 +1,6 @@
 package Storage;
 
-public final enum SoldByWeight {
+public enum SoldByWeight {
 
     /*
     NO = Not sold by weight,
