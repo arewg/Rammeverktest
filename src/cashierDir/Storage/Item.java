@@ -1,8 +1,5 @@
 package cashierDir.Storage;
 
-import org.jetbrains.annotations.Contract;
-import org.jetbrains.annotations.NotNull;
-
 public final class Item {
 
     /////////////////////
@@ -49,7 +46,7 @@ public final class Item {
         private Enum<AssortmentCodes> assortment;
         private int belongsToStoreId;
 
-        @Contract(pure = true)
+
         public Builder (){}
 
         public Builder setName(String name) {
@@ -139,8 +136,8 @@ public final class Item {
     // CONSTRUCTOR FOR //
     //   NEW ITEMS     //
     /////////////////////
-    @Contract(pure = true)
-    private Item(@NotNull Item.Builder builder){
+
+    private Item(Item.Builder builder){
         this.id = builder.id;
         this.name = builder.name;
         this.partNumber = builder.partNumber;
