@@ -8,7 +8,7 @@ import java.util.ArrayList;
 
 public class Employee extends Person {
 
-    private int hei;
+    private int he2;
     private String id;
     private ArrayList<Item> itemsSold;
     private float sales;
