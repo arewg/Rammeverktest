@@ -45,7 +45,7 @@ public class Item {
         private float priceWithTax;
         private float tax;
         private int numberInStock;
-        private String status = " // Kanskje denne eller assortmentcode under kan fjernes.
+        private String status = " // Kanskje denne eller assortmentcode under kan fjernes."
         private Enum<AssortmentCodes> assortment;
         private int belongsToStoreId;
 
@@ -140,7 +140,7 @@ public class Item {
     //   NEW ITEMS     //
     /////////////////////
     @Contract(pure = true)
-    private Item(@NotNull Item.Builder builder){
+    public Item(@NotNull Item.Builder builder){
         this.id = builder.id;
         this.name = builder.name;
         this.partNumber = builder.partNumber;
