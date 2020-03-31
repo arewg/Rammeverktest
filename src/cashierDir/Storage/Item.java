@@ -31,6 +31,10 @@ public class Item {
     /////////////////
     public final static class Builder {
 
+<<<<<<< Updated upstream
+=======
+
+>>>>>>> Stashed changes
         private int id;
         private String name;
         private int partNumber;
