@@ -8,12 +8,14 @@ import java.util.ArrayList;
 
 public class Employee extends Person {
 
+    private int hei;
     private String id;
     private ArrayList<Item> itemsSold;
     private float sales;
     private float budget;
     private LocalDate dateSold;
     private ArrayList<String> arrayList;
+
 
 
     public Employee(String firstName, String lastname, String email, int phoneNumber) {
