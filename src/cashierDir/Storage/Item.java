@@ -33,6 +33,8 @@ public final class Item {
     /////////////////
     public final static class Builder {
 
+        private int hei;
+
         private int id;
         private String name;
         private int partNumber;
