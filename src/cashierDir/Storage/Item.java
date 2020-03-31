@@ -3,7 +3,9 @@ package cashierDir.Storage;
 import org.jetbrains.annotations.Contract;
 import org.jetbrains.annotations.NotNull;
 
-public class Item {
+import org.jetbrains.annotations.Contract;
+
+public final class Item {
 
     /////////////////////
     // FIELD VARIABLES //
@@ -31,10 +33,6 @@ public class Item {
     /////////////////
     public final static class Builder {
 
-<<<<<<< Updated upstream
-=======
-
->>>>>>> Stashed changes
         private int id;
         private String name;
         private int partNumber;
@@ -49,7 +47,9 @@ public class Item {
         private float priceWithTax;
         private float tax;
         private int numberInStock;
-        private String status = " // Kanskje denne eller assortmentcode under kan fjernes."
+
+        private String status; // Kanskje denne eller assortmentcode under kan fjernes.
+
         private Enum<AssortmentCodes> assortment;
         private int belongsToStoreId;
 
