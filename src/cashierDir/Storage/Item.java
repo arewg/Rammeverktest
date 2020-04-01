@@ -299,4 +299,9 @@ public final class Item {
     public void setBelongsToStoreId(int belongsToStoreId) {
         this.belongsToStoreId = belongsToStoreId;
     }
+
+    @Override
+    public String toString() {
+        return name;
+    }
 }

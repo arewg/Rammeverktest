@@ -34,4 +34,11 @@ public  class Person {
     public int getPhoneNumber() {
         return phoneNumber;
     }
+
+    @Override
+    public String toString() {
+        return "Person{" +
+                "firstName='" + firstName + '\'' +
+                '}';
+    }
 }
