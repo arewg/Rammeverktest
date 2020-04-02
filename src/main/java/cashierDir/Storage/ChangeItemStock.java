@@ -5,9 +5,6 @@ public final class ChangeItemStock {
     public static int stockLessThan;
     public static boolean checkRestockNecessary;
 
-    ////////////////
-    //   REDUCING //
-    ////////////////
     public static void reduceStock(Item item, int reduceBy){
 
         int newNumberInStock = item.getNumberInStock() - reduceBy;
@@ -19,9 +16,10 @@ public final class ChangeItemStock {
             isRestockNecessary(item);
         }
         if (newNumberInStock <= 0){
-            ChangeItemStatus.change(item, "Sold out");
+            if (!item.getStatus().equals("Sold out")) {
+                ChangeItemStatus.change(item, "Sold out");
+            }
         }
-
     }
 
     private static void isRestockNecessary(Item item){
@@ -32,9 +30,6 @@ public final class ChangeItemStock {
         }
     }
 
-    ////////////////
-    //   INCREASE //
-    ////////////////
 
     public static void increaseStockForOneItem(Item item, int increaseBy) {
         if (increaseBy > 0 && increaseBy < 500) {
