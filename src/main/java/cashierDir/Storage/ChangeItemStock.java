@@ -9,13 +9,19 @@ public final class ChangeItemStock {
     //   REDUCING //
     ////////////////
     public static void reduceStock(Item item, int reduceBy){
+
+        int newNumberInStock = item.getNumberInStock() - reduceBy;
+
         if(reduceBy > 0 && reduceBy < 500) {
-            int newNumberInStock = item.getNumberInStock() - reduceBy;
             item.setNumberInStock(newNumberInStock);
         }
         if (checkRestockNecessary != false) {
             isRestockNecessary(item);
         }
+        if (newNumberInStock <= 0){
+            ChangeItemStatus.change(item, "Sold out");
+        }
+
     }
 
     private static void isRestockNecessary(Item item){
