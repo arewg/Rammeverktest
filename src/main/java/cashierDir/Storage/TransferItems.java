@@ -1,6 +1,8 @@
 package cashierDir.Storage;
 
 
+import cashierDir.Exceptions.TransferingToSameStoreException;
+
 public final class TransferItems {
 
     public void toStore(Item item, int numberOfItem, int storeId) throws TransferingToSameStoreException {

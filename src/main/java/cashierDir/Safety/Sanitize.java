@@ -1,6 +1,7 @@
-package cashierDir.Storage;
+package cashierDir.Safety;
 
-import java.lang.reflect.Array;
+import cashierDir.Exceptions.FailedToSanitizeException;
+
 import java.util.ArrayList;
 
 public class Sanitize {

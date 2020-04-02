@@ -1,4 +1,4 @@
-package cashierDir.Storage;
+package cashierDir.Exceptions;
 
 public class TransferingToSameStoreException extends Throwable {
     public TransferingToSameStoreException(String s) {

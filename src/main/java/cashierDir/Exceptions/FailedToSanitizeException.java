@@ -1,4 +1,4 @@
-package cashierDir.Storage;
+package cashierDir.Exceptions;
 
 
 public class FailedToSanitizeException extends Throwable {

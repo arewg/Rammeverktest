@@ -1,6 +1,8 @@
 package cashierDir.Storage;
 
 
+import cashierDir.Safety.Sanitize;
+
 public final class ChangeItemStatus {
 
     public void change (Item item, String newStatus){

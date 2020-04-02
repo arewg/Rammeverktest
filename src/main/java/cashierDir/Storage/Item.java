@@ -46,9 +46,7 @@ public final class Item {
         private float priceWithTax;
         private float tax;
         private int numberInStock;
-
         private String status; // Kanskje denne eller assortmentcode under kan fjernes.
-
         private Enum<AssortmentCodes> assortment;
         private int belongsToStoreId;
 

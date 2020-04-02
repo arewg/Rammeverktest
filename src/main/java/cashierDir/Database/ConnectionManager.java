@@ -1,4 +1,4 @@
-package cashierDir.Storage;
+package cashierDir.Database;
 
 import java.sql.*;
 
